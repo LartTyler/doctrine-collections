@@ -1,0 +1,19 @@
+{
+	"name": "dbstudios/doctrine-collections",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Tyler Lartonoix",
+			"email": "tyler@gravitationalmarketing.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"DaybreakStudios\\DoctrineCollections\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.6",
+		"doctrine/collections": "~1.4"
+	}
+}
